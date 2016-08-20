@@ -1,0 +1,110 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<script href="Scripts/bootstrap.js"></script>
+
+<!DOCTYPE html>
+<!-- content -->
+<div id="content" class="content-extra">
+    <div class="ic"></div>
+    <div class="row-1">
+        <div class="container">
+            <div class="row">
+                <article class="span12">
+                    <h4>TOP MEMES</h4>
+                </article>
+                <ul class="thumbnails thumbnails-1">
+
+                    <li class="span3">
+                        <div class="thumbnail thumbnail-1">
+                            <img src="~/img/PIC3.jpg" alt="">
+                            <section>
+                                <a href="#">
+                                    <h3> [TAG/CATEGORY] </h3>
+                                </a>
+                                <div class="meta">
+                                    <time datetime="2012-11-09" class="date-1"><i class="icon-calendar"></i> 1.5.2012</time> @*Post date*@
+                                    <div class="name-author">
+                                        <i class="icon-user"></i> <a href="#">Gosheto</a> @*Post Creator*@
+                                    </div>
+                                    <a href="#" class="comments"><i class="icon-comment"></i> 5 comments</a> @*Comments for posted meme*@
+                                </div>
+                                <a href="#" class="btn btn-xs btn-primary"><span class="glyphicon glyphicon-thumbs-up"></span> Like</a>  @* TODO :: ADD  BETTER BUTTON*@
+                                <div class="clear"></div>
+                                <a href="#" class="btn btn-1">Full Comments</a>
+                            </section>
+                        </div>
+                    </li>
+                    <li class="span3">
+                        <div class="thumbnail thumbnail-1">
+                            <img src="~/img/PIC8.jpg" alt="">
+                            <section>
+                                <a href="#">
+                                    <h3> [TAG/CATEGORY] </h3>
+                                </a>
+                                <div class="meta">
+                                    <time datetime="2012-11-09" class="date-1"><i class="icon-calendar"></i> 9.11.2012</time> @*Post date*@
+                                    <div class="name-author">
+                                        <i class="icon-user"></i> <a href="#">Niki</a> @*Post Creator*@
+                                    </div>
+                                    <a href="#" class="comments"><i class="icon-comment"></i> 2 comments</a> @*Comments for posted meme*@
+                                </div>
+                                <a href="#" class="btn btn-xs btn-primary"><span class="glyphicon glyphicon-thumbs-up"></span> Like</a>
+                                <div class="clear"></div>
+                                <a href="#" class="btn btn-1">Full Comments</a>
+                            </section>
+                        </div>
+                    </li>
+                    <li class="span3">
+                        <div class="thumbnail thumbnail-1">
+                            <img src="~/img/PIC7.jpg" alt="">
+                            <section>
+                                <a href="#">
+                                    <h3> [TAG/CATEGORY] </h3>
+                                </a>
+                                <div class="meta">
+                                    <time datetime="2012-11-09" class="date-1"><i class="icon-calendar"></i> 9.11.2012</time> @*Post date*@
+                                    <div class="name-author">
+                                        <i class="icon-user"></i> <a href="#">Ivan</a> @*Post Creator*@
+                                    </div>
+                                    <a href="#" class="comments"><i class="icon-comment"></i> 102 comments</a> @*Comments for posted meme*@
+                                </div>
+                                <a href="#" class="btn btn-xs btn-primary"><span class="glyphicon glyphicon-thumbs-up"></span> Like</a>
+                                <div class="clear"></div>
+                                <a href="#" class="btn btn-1">Full Comments</a>
+                            </section>
+                        </div>
+                    </li>
+
+                    <li class="span3">
+                        <div class="thumbnail thumbnail-1">
+                            <img src="~/img/PIC6.jpg" alt="">
+                            <section>
+                                <a href="#">
+                                    <h3> [TAG/CATEGORY] </h3>
+                                </a>
+                                <div class="meta">
+                                    <time datetime="2012-11-09" class="date-1"><i class="icon-calendar"></i> 9.03.2015</time> @*Post date*@
+                                    <div class="name-author">
+                                        <i class="icon-user"></i> <a href="#">Мария</a> @*Post Creator*@
+                                    </div>
+                                    <a href="#" class="comments"><i class="icon-comment"></i> 22 comments</a> @*Comments for posted meme*@
+                                </div>
+                                <a href="#" class="btn btn-xs btn-primary"><span class="glyphicon glyphicon-thumbs-up"></span> Like</a>
+                                <div class="clear"></div>
+                                <a href="#" class="btn btn-1">Full Comments</a>
+                            </section>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+@using System.Web.UI.WebControls
+@using MY_DEMO_BLOG.Controllers
+@model IEnumerable<MY_DEMO_BLOG.Models.Post>
+
+
+    </div>
